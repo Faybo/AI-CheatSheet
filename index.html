@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Faby Cheat Sheet</title>
+    </head>
+    <body class="bg">
+        <header>
+            <h1 class="title">Faby Cheat Sheet</h1>
+        </header>
+        <div>
+            <h2 class="primeira_dica">Machine Learning Engineering or <span style="text-decoration: underline; text-shadow: 1px 1px rgb(29, 13, 255);"><strong>MLE</strong></span></h2>
+        </div>
+        <div>
+            <h2 style="margin-left: 850px">Feature Engineering and the Machine Learning Workflow</h2>
+            <img class="image" src="https://static-assets.codecademy.com/skillpaths/feature-engineering/feature-engineering-intro/intro%20to%20Feature%20Engg%20Table%20NEW.png" alt="Feature Engineering Table">
+        </div>
+        <div class="container">
+            
+            <div class="box">
+                <p class="hidden-text"><strong>Supervised Learning</strong> is where the data is labeled and the program learns to predict the output from the input data. For instance, a supervised learning algorithm for credit card fraud detection would take as input a set of recorded transactions. For each transaction, the program would predict if it is fraudulent or not.</p>
+                <p class="centered-text"><strong>Supervised</strong> Learning</p>
+            </div>
+            <div class="box_1">
+                <p class="centered-text_1">Supervised learning problems can be further grouped into <strong>regression</strong> and <strong>classification</strong> problems.</p>
+                <p class="hidden-text_1">
+                    <strong>Regression:</strong>
+                    In regression problems, we are trying to predict a continuous-valued output. Examples are:
+                    What is the housing price in New York?
+                    What is the value of cryptocurrencies?
+                </p>
+                <p class="hidden-text_1">
+                    <strong>Classification:</strong>
+                    In classification problems, we are trying to predict a discrete number of values. Examples are:
+                    Is this a picture of a human or a picture of a cyborg?
+                    Is this email spam?
+                </p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Unsupervised Learning</strong> is a type of machine learning where the program learns the inherent structure of the data based on unlabeled examples. Clustering is a common unsupervised machine learning approach that finds patterns and structures in unlabeled data by grouping them into clusters.</p>
+                <p class="centered-text_2"><strong>Unsupervised</strong> Learning</p>
+            </div>
+            <div class="box_2">
+                <p>
+                    <p class="centered-text_2">Some <strong>examples of Unsupervised Learning:</strong></p>
+                    <p class="hidden-text_2">
+                        Social networks clustering topics in their news feed
+                        Consumer sites clustering users for recommendations
+                        Search engines to group similar objects in one cluster
+                        For a quick preview, here’s an example of unsupervised learning.
+                    </p>
+                    <p class="hidden-text_2">
+                        A social media platform wants to separate their users into categories based on what kind of content they engage with. They have collected three pieces of data from a sample of users:
+                    </p>
+                    <p style="text-decoration: underline;" class="hidden-text_2">
+                        Number of hours per week spent reading posts.
+                    </p>
+                    <p style="text-decoration: underline;" class="hidden-text_2">
+                        Number of hours per week spent watching videos.
+                    </p>
+                    <p style="text-decoration: underline;" class="hidden-text_2">
+                        Number of hours per week spent in virtual reality.
+                    </p>
+                </p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Data centering</strong> involves subtracting the mean of a data set from each data point so that the new mean is 0. This process helps us understand how far above or below each of our data points is from the mean.</p>
+                <p class="centered-text_2">Centering Your Data</p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Standardization</strong> is when we center our data, then divide it by the standard deviation. Once we do that, our entire data set will have a mean of zero and a standard deviation of one. This allows all of our features to be on the same scale.</p>
+                <p class="centered-text_2">Standardizing our Data</p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Binning data</strong> is the process of taking numerical or categorical data and breaking it up into groups. We could decide to bin our data to help capture patterns in noisy data. There isn’t a clean and fast rule about how to bin your data, but like so many things in machine learning, you need to be aware of the trade-offs.</p>
+                <p class="centered-text_2">Binning our Data</p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Categorical data</strong> is data that has more than one category. When working with that type of data we have two types, nominal and ordinal. Nominal data is data that has no particular order or hierarchy to it, and ordinal data is categorical data where the categories have order, but the differences between the categories are not important or unclear.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Ordinal encoding</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Label Encoding</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">One-hot Encoding</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Binary encoding</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Hashing</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Target encoding</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">Encoding date-time variables</p>
+                <p class="centered-text_2">Encoding Categorical Variables</p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2">In terms of output, two main types of machine learning models exist: those for regression and those for classification.
+                    <p class="hidden-text_2"><strong>Regression</strong></p>
+                    <p class="hidden-text_2">Regression is used to predict outputs that are continuous. The outputs are quantities that can be flexibly determined based on the inputs of the model rather than being confined to a set of possible labels.
+
+                        For example:
+        
+                        Predict the height of a potted plant from the amount of rainfall
+                        Predict salary based on someone’s age and availability of high-speed internet
+                        Predict a car’s MPG (miles per gallon) based on size and model year</p>
+                </p>
+                <p class="hidden-text_2"><strong>Classification</strong></p>
+                <p class="hidden-text_2">Classification is used to predict a discrete label. The outputs fall under a finite set of possible outcomes. Many situations have only two possible outcomes. This is called binary classification (True/False, 0 or 1)</p>
+                <p class="hidden-text_2">For example:
+
+                    <p style="text-decoration: underline;" class="hidden-text_2">-> Predict whether an email is spam or not</p>
+                    <p style="text-decoration: underline;" class="hidden-text_2">-> Predict whether it will rain or not</p>
+                    <p style="text-decoration: underline;" class="hidden-text_2">-> Predict whether a user is a power user or a casual user</p>
+                </p>
+                <p class="centered-text_2">Regression vs. Classification</p>
+            </div>
+            <div class="box_2">
+                <p class="hidden-text_2"><strong>Linear regression</strong> algorithm in Python, and how to use the linear regression model from scikit-learn. We learned:</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> We can measure how well a line fits by measuring loss.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> The goal of linear regression is to minimize loss.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> To find the line of best fit, we try to find the b value (intercept) and the m value (slope) that minimize loss.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> Convergence refers to when the parameters stop changing with each iteration.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> Learning rate refers to how much the parameters are changed on each iteration.</p>
+                <p style="text-decoration: underline;" class="hidden-text_2">-> We can use Scikit-learn’s LinearRegression() model to perform linear regression on a set of points.</p>
+                <p class="centered-text_2">Linear Regression Algorithm in Python</p>
+            </div>
+        </div>
+    </body>
+</html>
